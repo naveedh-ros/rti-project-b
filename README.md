@@ -2,7 +2,7 @@
 
 This project simulates a smart warehouse environment using **ROS2** and **Gazebo**, where automated guided vehicles (AGVs), robotic arms, and computer vision systems work together to classify and transport materials within a warehouse layout.
 
-## 🚀 Project Overview
+##  Project Overview
 
 - Materials arrive at the **Inbound Dock**
 - A **CV Node** classifies parts by QR tag or color
@@ -11,7 +11,7 @@ This project simulates a smart warehouse environment using **ROS2** and **Gazebo
 - **AGVs** autonomously navigate to drop zones or storage bins
 - The system includes logic for **emergency handling**, **multi-AGV coordination**, and **dynamic task assignment**
 
-## 🧩 ROS2 Packages
+##  ROS2 Packages
 
 | Package Name         | Purpose                                      |
 |----------------------|----------------------------------------------|
@@ -22,7 +22,7 @@ This project simulates a smart warehouse environment using **ROS2** and **Gazebo
 | `fault_handler`      | Emergency and fault management               |
 | `spawn_manager`      | Spawns parts, AGVs, and handles simulation resets |
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```bash
 src/
